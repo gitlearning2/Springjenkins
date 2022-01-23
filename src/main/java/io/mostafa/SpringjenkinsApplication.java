@@ -11,13 +11,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringjenkinsApplication {
 	
 	private static final Logger log = LoggerFactory.getLogger(SpringjenkinsApplication.class);
-  @PostConstruct
-	public void init() {
+	@PostConstruct
+	public init() {
 		log.info("app started");
 	}
 
 	public static void main(String[] args) {
-		log.info("app executed");
+		log.info("startingn main method");
 		SpringApplication.run(SpringjenkinsApplication.class, args);
 	}
 
