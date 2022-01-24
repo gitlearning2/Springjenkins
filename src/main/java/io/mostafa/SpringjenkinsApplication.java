@@ -18,6 +18,7 @@ public class SpringjenkinsApplication {
 
 	public static void main(String[] args) {
 		log.info("startingn main me");
+		log.info("Hello world my name is mosatafa");
 		SpringApplication.run(SpringjenkinsApplication.class, args);
 	}
 
